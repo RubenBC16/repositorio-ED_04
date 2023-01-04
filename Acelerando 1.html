@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 50px;
+        }
+        div {
+        width: 450px;
+        padding: 10px;
+        }
+    </style>    
+</head>
+<body>
+    <h1>PRÁCTICA 4 ED</h1> <hr>
+    <h3>Rubén Barbero Cañada</h3>
+    <h2>Ejercicio 1: Acelerando I</h2>
+        <div>
+            <p>HEAD es la forma de referirse al commit sobre el que estemos trabajando. Generalmente está ligado a una rama y dentro de ella a un commit.<br>
+            Aquí podemos ver como HEAD está ligado a la rama, y que ocurre con el HEAD si esta se modifica.</p>
+                <img src="imagenes 1/parte 1.png"></a>
+            <p> Si realizamos cambios y  commits en la rama, la rama quedaría así:</p>
+                <img src="imagenes 1/parte 2.png"></a>
+            
+            <p> Cuando el estado de la rama se modifica se hace visible mediante HEAD. Este ejercicio trata de desenlazar el HEAD de la rama, 
+            para ello se debe de aplicar el comando “git checkout ” seguido del “hash” (identificador) del commit al que queremos enlazar el HEAD</p><br>
+            <p>En este caso el hash sería C4 ya que queremos quitar el head de "bugfix":</p>
+            <img src="imagenes 1/imagen acelerando 1.png"></a>
+            <p>El árbol de trabajo ahora quedaría así:</p>
+            <img src="imagenes 1/resultado final.png">
+            <p>Si seguimos trabajando en la rama nos quedará un árbol de este estilo:</p>
+            <img src="imagenes 1/mas alla.png">
+        </div> <br>
+</body>
+</html>
